@@ -1,7 +1,9 @@
 {
   "name": "discord-last-message-api",
   "version": "1.0.0",
-  "dependencies": {
-    "node-fetch": "^3.3.2"
-  }
+  "type": "module",
+  "scripts": {
+    "start": "node api/last-message.js"
+  },
+  "dependencies": {}
 }
